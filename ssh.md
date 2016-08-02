@@ -23,4 +23,26 @@ $ sudo vi /etc/ssh/sshd_config
 $ sudo service ssh restart
 ```
 
+然后尝试密码登录
+```
+ssh root@ip
+```
+
+## 添加公钥 
+
+如果是mac，需要安装`ssh-copy-id`
+```
+brew install ssh-copy-id
+```
+
+然后就可以用ssh key登录了
+```
+ssh root@ip
+```
+
+
+
+
+
+
  

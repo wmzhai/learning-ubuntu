@@ -1,4 +1,4 @@
-# root用户ssh远程登录
+# ssh配置
 
 SSH服务器，可以通过SSH协议来访问远程服务器，代替telnet和ftp。
 但是ubuntu默认是不启用root用户也不允许root远程登录的。
